@@ -1,0 +1,34 @@
+{
+  "name": "RubanCore Restaurant",
+  "short_name": "RubanCore",
+  "description": "Authentic Indian Restaurant — Order Online",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f97316'/><text y='.9em' font-size='70' x='15'>🍽️</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "View Menu",
+      "short_name": "Menu",
+      "description": "Browse our full menu",
+      "url": "/?route=menu",
+      "icons": [{ "src": "/icons/menu.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Order on WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Order via WhatsApp",
+      "url": "https://wa.me/916307874140?text=Hi!+I'd+like+to+place+an+order+at+RubanCore"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "restaurant": {
+    "name": "RubanCore",
+    "tagline": "Flavours That Tell Stories",
+    "established": "2012",
+    "phone": "+91 6307874140",
+    "whatsapp": "919999999999",
+    "email": "hello@rubancore.com",
+    "address": {
+      "line1": "123 Foodie Lane, Near City Mall,",
+      "line2": "MG Road, Bengaluru – 560001",
+      "line3": "Karnataka, India"
+    },
+    "mapsUrl": "https://maps.google.com"
+  },
+  "stats": [
+    { "label": "Happy Customers", "value": "1,000+", "icon": "😊" },
+    { "label": "Menu Items",      "value": "50+",    "icon": "🍽️" },
+    { "label": "Avg Rating",      "value": "4.8 ★",  "icon": "⭐" },
+    { "label": "Years of Taste",  "value": "12+",    "icon": "🏆" }
+  ],
+  "hours": [
+    { "day": "Monday – Thursday", "time": "12:00 PM – 10:30 PM" },
+    { "day": "Friday",            "time": "12:00 PM – 11:30 PM" },
+    { "day": "Saturday",          "time": "11:00 AM – 11:30 PM" },
+    { "day": "Sunday",            "time": "11:00 AM – 10:00 PM" },
+    { "day": "Public Holidays",   "time": "12:00 PM – 9:00 PM"  }
+  ],
+  "team": [
+    { "name": "Chef Rajesh Kumar", "role": "Executive Chef",      "emoji": "👨‍🍳", "exp": "20+ yrs exp", "specialty": "North Indian & Mughlai" },
+    { "name": "Anita Sharma",      "role": "Head Pastry Chef",    "emoji": "👩‍🍳", "exp": "14 yrs exp",  "specialty": "Indian Desserts"        },
+    { "name": "Suresh Patel",      "role": "Restaurant Manager",  "emoji": "🧑‍💼", "exp": "12 yrs exp",  "specialty": "Operations & Hospitality"},
+    { "name": "Preethi Nair",      "role": "Beverage Specialist", "emoji": "🧑‍🍹", "exp": "8 yrs exp",   "specialty": "Mocktails & Lassi"       }
+  ],
+  "timeline": [
+    { "year": "2012", "title": "The Beginning",     "desc": "Started as a small 20-seat restaurant in Koramangala, Bengaluru, by the Ruban family with just 8 dishes on the menu." },
+    { "year": "2015", "title": "First Expansion",   "desc": "Moved to a larger space on MG Road with 80 seats and added a dedicated private dining section for events." },
+    { "year": "2018", "title": "Award Recognition", "desc": "Received \"Best Indian Restaurant in Bengaluru\" award from Food & Hospitality Excellence awards." },
+    { "year": "2021", "title": "Digital & Delivery","desc": "Launched online ordering, WhatsApp integration, and partnered with major delivery platforms." },
+    { "year": "2024", "title": "Today & Beyond",    "desc": "Serving 1000+ customers weekly, with a team of 45 people, and plans for a second location in 2025." }
+  ],
+  "awards": [
+    { "icon": "🥇", "title": "Best Indian Restaurant 2018", "body": "Food & Hospitality Awards"  },
+    { "icon": "🌿", "title": "FSSAI Certified",             "body": "Food Safety Standards"      },
+    { "icon": "⭐", "title": "5-Star Hygiene Rating",       "body": "Municipal Corporation"      },
+    { "icon": "🏅", "title": "Top Rated 2023",              "body": "Google Maps"                }
+  ],
+  "ratingBreakdown": [
+    { "label": "Food Quality", "val": 4.9 },
+    { "label": "Service",      "val": 4.7 },
+    { "label": "Ambience",     "val": 4.8 },
+    { "label": "Value",        "val": 4.6 },
+    { "label": "Cleanliness",  "val": 4.9 },
+    { "label": "Location",     "val": 4.5 }
+  ],
+  "bookingFaq": [
+    {
+      "q": "How far in advance should I book?",
+      "a": "We recommend booking at least 24 hours in advance, especially for weekends and special occasions."
+    },
+    {
+      "q": "Is there a minimum spend?",
+      "a": "No minimum spend for regular dining. Events packages start from ₹500 per person."
+    },
+    {
+      "q": "Can I modify or cancel my booking?",
+      "a": "Yes, modifications or cancellations are accepted up to 4 hours before your reservation."
+    }
+  ],
+  "eventSpaces": [
+    "Private Hall (up to 50 pax)",
+    "Outdoor Terrace (up to 80 pax)",
+    "Full Venue Buyout (up to 150 pax)"
+  ],
+  "termsAndConditions": [
+    "Offers cannot be combined with other promotions unless stated",
+    "Codes are single use per customer unless specified otherwise",
+    "Management reserves the right to modify or withdraw offers at any time",
+    "Offers valid for dine-in and takeaway unless marked otherwise",
+    "Minimum order amounts are inclusive of taxes"
+  ]
+}

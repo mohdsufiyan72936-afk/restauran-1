@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+    "cat": "Food",
+    "title": "Chef's Platter"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=80",
+    "cat": "Food",
+    "title": "Paneer Tikka Masala"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80",
+    "cat": "Food",
+    "title": "Butter Chicken"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80",
+    "cat": "Food",
+    "title": "Chicken Biryani"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&q=80",
+    "cat": "Food",
+    "title": "Dal Makhani"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+    "cat": "Food",
+    "title": "Samosa Chaat"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80",
+    "cat": "Drinks",
+    "title": "Mango Lassi"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1666618949088-5803f89dd6f5?w=600&q=80",
+    "cat": "Desserts",
+    "title": "Gulab Jamun"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1590080875852-ac896bddedba?w=600&q=80",
+    "cat": "Desserts",
+    "title": "Rasmalai"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+    "cat": "Food",
+    "title": "Garlic Naan"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
+    "cat": "Ambience",
+    "title": "Dining Hall"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80",
+    "cat": "Ambience",
+    "title": "Restaurant Interior"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80",
+    "cat": "Ambience",
+    "title": "Table Setting"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&q=80",
+    "cat": "Ambience",
+    "title": "Bar Counter"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600&q=80",
+    "cat": "Events",
+    "title": "Private Dinner"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80",
+    "cat": "Events",
+    "title": "Birthday Party"
+  }
+]

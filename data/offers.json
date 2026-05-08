@@ -1,0 +1,68 @@
+[
+  {
+    "id": "FEAST20",
+    "title": "Family Feast 20% Off",
+    "desc": "Get 20% discount on the Family Feast Combo. Valid on orders above ₹800.",
+    "code": "FEAST20",
+    "badge": "🔥 Hot Deal",
+    "expiry": "Ends 15 May",
+    "color": "from-orange-500 to-rose-600",
+    "saving": "₹240 off",
+    "minOrder": "₹800"
+  },
+  {
+    "id": "FIRSTBITE",
+    "title": "Welcome Offer — 15% Off",
+    "desc": "First time ordering? Get 15% off your entire first bill. No minimum order required!",
+    "code": "FIRSTBITE",
+    "badge": "🎁 New User",
+    "expiry": "Limited period",
+    "color": "from-violet-500 to-purple-600",
+    "saving": "Up to ₹180",
+    "minOrder": "No minimum"
+  },
+  {
+    "id": "LUNCH50",
+    "title": "Weekday Lunch Special",
+    "desc": "50% off on selected main course dishes from 12 PM to 3 PM on weekdays only.",
+    "code": "LUNCH50",
+    "badge": "🌞 Lunch Deal",
+    "expiry": "Mon–Fri only",
+    "color": "from-amber-400 to-orange-500",
+    "saving": "50% off",
+    "minOrder": "₹400"
+  },
+  {
+    "id": "BDAY30",
+    "title": "Birthday Celebration 30% Off",
+    "desc": "Celebrate your special day with us! Show your birthday proof and get 30% off the entire table.",
+    "code": "BDAY30",
+    "badge": "🎂 Birthday",
+    "expiry": "On your birthday",
+    "color": "from-pink-500 to-rose-600",
+    "saving": "₹300 off",
+    "minOrder": "₹1000"
+  },
+  {
+    "id": "COMBO199",
+    "title": "Starter + Drink Combo at ₹199",
+    "desc": "Any starter with a cold drink combo at a flat ₹199. Available for dine-in only.",
+    "code": "COMBO199",
+    "badge": "⚡ Flash Deal",
+    "expiry": "Weekends only",
+    "color": "from-emerald-500 to-teal-600",
+    "saving": "Save ₹60",
+    "minOrder": "Dine-in only"
+  },
+  {
+    "id": "CORP25",
+    "title": "Corporate Group 25% Off",
+    "desc": "Groups of 10 or more get 25% off on pre-booked orders. Perfect for office lunches and parties.",
+    "code": "CORP25",
+    "badge": "🏢 Corporate",
+    "expiry": "Mon–Fri",
+    "color": "from-blue-500 to-indigo-600",
+    "saving": "25% off",
+    "minOrder": "10+ people"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Priya Sharma",
+    "rating": 5,
+    "text": "Absolutely phenomenal experience! The Butter Chicken here is legendary — rich, creamy, and perfectly spiced. The staff was incredibly warm and the ambiance made our anniversary dinner truly special.",
+    "avatar": "P",
+    "date": "2 days ago",
+    "dish": "Butter Chicken",
+    "verified": true
+  },
+  {
+    "name": "Rahul Mehta",
+    "rating": 5,
+    "text": "Ordered the Family Feast Combo and it was absolutely worth every rupee! Generous portions, everything arrived hot, and the Dal Makhani alone was worth the visit. Will definitely return.",
+    "avatar": "R",
+    "date": "1 week ago",
+    "dish": "Family Feast Combo",
+    "verified": true
+  },
+  {
+    "name": "Sneha Kulkarni",
+    "rating": 5,
+    "text": "The Paneer Tikka Masala is simply divine. Perfectly charred paneer, thick vibrant gravy. Paired with Garlic Naan it was a match made in heaven. Desserts were a beautiful end!",
+    "avatar": "S",
+    "date": "2 weeks ago",
+    "dish": "Paneer Tikka Masala",
+    "verified": true
+  },
+  {
+    "name": "Arjun Patel",
+    "rating": 4,
+    "text": "Great food overall! The Chicken Biryani was fragrant and filling. Service was prompt. Minor delay in seating on a weekend but totally understandable given how popular this place is.",
+    "avatar": "A",
+    "date": "3 weeks ago",
+    "dish": "Chicken Biryani",
+    "verified": true
+  },
+  {
+    "name": "Divya Nair",
+    "rating": 5,
+    "text": "I brought my parents here for their anniversary and they were floored. The private dining section is beautiful. Rasmalai was the highlight — silky, delicate, and perfectly chilled.",
+    "avatar": "D",
+    "date": "1 month ago",
+    "dish": "Rasmalai",
+    "verified": false
+  },
+  {
+    "name": "Karan Singh",
+    "rating": 5,
+    "text": "Best restaurant in the area, no contest. Every single dish we ordered — Seekh Kebab, Dal Makhani, Veg Platter — was flawless. The Mango Lassi is the best I've ever had.",
+    "avatar": "K",
+    "date": "1 month ago",
+    "dish": "Seekh Kebab",
+    "verified": true
+  },
+  {
+    "name": "Meera Reddy",
+    "rating": 4,
+    "text": "Lovely family dinner! Food was hot, fresh, and incredibly tasty. Kids loved the Gulab Jamun. The ambiance is warm and inviting. Parking could be better on weekends.",
+    "avatar": "M",
+    "date": "6 weeks ago",
+    "dish": "Gulab Jamun",
+    "verified": false
+  },
+  {
+    "name": "Vikram Joshi",
+    "rating": 5,
+    "text": "Stumbled upon this place while looking for good Indian food. Left completely blown away! The portions are generous, prices are fair, and the quality is restaurant-level. Highly recommend.",
+    "avatar": "V",
+    "date": "2 months ago",
+    "dish": "Butter Chicken",
+    "verified": true
+  },
+  {
+    "name": "Ananya Das",
+    "rating": 5,
+    "text": "A hidden gem! The Masala Chai here is an experience in itself — perfectly spiced and aromatic. Combined with the Samosas, it's the perfect evening snack. I come here every week now.",
+    "avatar": "A",
+    "date": "2 months ago",
+    "dish": "Masala Chai",
+    "verified": true
+  }
+]
