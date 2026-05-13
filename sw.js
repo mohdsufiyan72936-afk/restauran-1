@@ -11,15 +11,18 @@ const ASSETS = [
   './js/api.js',
   './js/ui.js',
   './data/menu.json',
-  'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap',
 ];
 
 // ─── INSTALL ─────────────────────────────────────────────
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(ASSETS).catch(err => console.warn('[SW] Cache failed:', err));
-    })
+    caches.open(CACHE_NAME).then(cache =>
+      Promise.allSettled(
+        ASSETS.map(url =>
+          cache.add(url).catch(err => console.warn('[SW] Skipped:', url, err.message))
+        )
+      )
+    )
   );
   self.skipWaiting();
 });
@@ -34,25 +37,32 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-// ─── FETCH (Cache-First for assets, Network-First for API) ──
+// ─── FETCH ───────────────────────────────────────────────
 self.addEventListener('fetch', event => {
+  // Ignore non-http requests (chrome-extension://, blob:, data: etc.)
+  if (!event.request.url.startsWith('http')) return;
+
   const url = new URL(event.request.url);
 
-  // Skip non-GET and external APIs
+  // Skip non-GET requests
   if (event.request.method !== 'GET') return;
+
+  // Skip external URLs that shouldn't be cached
   if (url.hostname.includes('script.google.com')) return;
   if (url.hostname.includes('unsplash.com')) return;
+  if (url.hostname.includes('cdn.tailwindcss.com')) return;
 
   event.respondWith(
     caches.match(event.request).then(cached => {
       if (cached) return cached;
+
       return fetch(event.request).then(response => {
         if (!response || response.status !== 200 || response.type === 'opaque') return response;
         const clone = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         return response;
       }).catch(() => {
-        // Offline fallback for HTML pages
+        // Offline fallback for HTML navigation
         if (event.request.destination === 'document') {
           return caches.match('./index.html');
         }
